@@ -1,0 +1,238 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Sawarabi Gothic", sans-serif;
+}
+
+.content.second {
+  background-color: #a3b18a;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.content.second > .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content.second > .grid-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-square > .napisik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container > .image-square {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 251px;
+  flex-grow: 0;
+}
+
+.image-square > a {
+  color: #000;
+  text-align: center;
+}
+
+.image-square > img {
+  width: 250px;
+  height: auto;
+  border: solid 2.5px #344e41;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 110px 20px 110px;
+  align-items: center;
+  background-color: #588157;
+  gap: 50px;
+  flex-shrink: 0;
+}
+
+.header > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.2),
+    0px 0px 9px 4px rgba(0, 0, 0, 0.19);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.content.first {
+  background-color: #588157;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+}
+
+.awesome > a {
+  line-height: 20px;
+}
+.awesome > h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+}
+.awesome > button {
+  width: 100px;
+  background-color: #a3b18a;
+  border-radius: 10px;
+  border: 0;
+  font-weight: bold;
+  padding: 5px 15px 5px 15px;
+  font-size: 15px;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.awesome > button:hover {
+  background-color: #8b927c;
+  font-size: 16px;
+}
+
+.awesome > button:active {
+  background-color: #5e5e53;
+}
+
+@media (max-width: 970px) {
+  .content.first {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content.first .picture {
+    padding-top: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .content.fourth > .box {
+    flex-direction: column;
+  }
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.picture > img {
+  height: auto;
+  width: 500px;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  gap: 10px;
+  width: 340px;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.content.third {
+  background-color: #dad7cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.content.third > .cytat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 850px;
+  min-width: 530px;
+  flex-shrink: 1;
+}
+
+.cytat > article {
+  font-size: 30px;
+}
+
+.podpis > h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #344e41;
+}
+
+.content.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+}
+
+.content.fourth > .box {
+  display: flex;
+  background-color: #588157;
+  border-radius: 10px;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 40px 70px 40px 70px;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.napisy > h3 {
+  margin: 0;
+  color: white;
+}
+
+.przycisk > button {
+  width: 100px;
+  background-color: #a3b18a;
+  border-radius: 10px;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  font-size: 15px;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.przycisk > button:hover {
+  background-color: #8b927c;
+  font-size: 16px;
+}
